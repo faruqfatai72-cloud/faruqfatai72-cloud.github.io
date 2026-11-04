@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Faruq builds n8n workflow automation solutions for businesses.">
+  <title>Faruq | Workflow Automation Specialist</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263247;
+    }
+
+    .logo {
+      font-size: 25px;
+      font-weight: bold;
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin-left: 22px;
+      font-size: 14px;
+      color: #cbd5e1;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    .hero {
+      padding: 110px 8%;
+      max-width: 1100px;
+    }
+
+    .tag {
+      color: #38bdf8;
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(38px, 6vw, 65px);
+      line-height: 1.15;
+      margin: 20px 0;
+      color: white;
+    }
+
+    h1 span {
+      color: #38bdf8;
+    }
+
+    .hero p {
+      max-width: 650px;
+      color: #94a3b8;
+      font-size: 17px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 13px 25px;
+      background: #0284c7;
+      border-radius: 6px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background: #0369a1;
+    }
+
+    section {
+      padding: 75px 8%;
+    }
+
+    .section-title {
+      font-size: 32px;
+      color: white;
+      margin-bottom: 12px;
+    }
+
+    .section-intro {
+      color: #94a3b8;
+      margin-bottom: 35px;
+    }
+
+    .about {
+      background: #111c30;
+    }
+
+    .about p {
+      max-width: 800px;
+      color: #cbd5e1;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: #111c30;
+      border: 1px solid #263247;
+      padding: 25px;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      color: #38bdf8;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: #17263d;
+      border: 1px solid #334155;
+      padding: 9px 17px;
+      border-radius: 5px;
+      color: #7dd3fc;
+      font-size: 14px;
+    }
+
+    .contact {
+      background: #111c30;
+      text-align: center;
+    }
+
+    .contact p {
+      color: #94a3b8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+      border-top: 1px solid #263247;
+      font-size: 13px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 7px;
+        font-size: 12px;
+      }
+
+      .hero {
+        padding: 75px 8%;
+      }
+
+      section {
+        padding: 60px 8%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">FARUQ.</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="tag">Workflow Automation Specialist</div>
+
+  <h1>
+    I help businesses<br>
+    <span>work smarter</span><br>
+    through automation.
+  </h1>
+
+  <p>
+    I build practical business automation systems using n8n,
+    connecting applications and automating repetitive tasks
+    to save time, reduce manual work and improve efficiency.
+  </p>
+
+  <a href="#projects" class="button">Explore My Projects</a>
+</div>
+
+<section class="about" id="about">
+  <h2 class="section-title">About Me</h2>
+
+  <p>
+    I'm Faruq, an aspiring automation engineer passionate
+    about helping businesses improve their operations through
+    technology. I specialize in building automated workflows
+    using n8n and integrating different business applications.
+    My focus is on creating practical solutions to real business
+    problems.
+  </p>
+</section>
+
+<section id="services">
+  <h2 class="section-title">What I Do</h2>
+  <p class="section-intro">Automation solutions for everyday business operations.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Lead Management</h3>
+      <p>Automating customer inquiries, lead collection,
+      notifications and follow-up processes.</p>
+    </div>
+
+    <div class="card">
+      <h3>Appointment Automation</h3>
+      <p>Automating bookings, calendar scheduling,
+      availability checks and email notifications.</p>
+    </div>
+
+    <div class="card">
+      <h3>Inventory Automation</h3>
+      <p>Monitoring product quantities and sending
+      automatic low-stock alerts.</p>
+    </div>
+
+    <div class="card">
+      <h3>Business Process Automation</h3>
+      <p>Connecting applications and reducing repetitive
+      manual business tasks.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="about">
+  <h2 class="section-title">My Projects</h2>
+  <p class="section-intro">A selection of automation systems I've built and tested.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>01. Customer Inquiry Automation</h3>
+      <p>
+        Collects customer inquiries, checks for duplicate
+        email records, saves information to Google Sheets
+        and sends email notifications to customers and owners.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>02. Property Viewing Automation</h3>
+      <p>
+        A property viewing automation project designed
+        to streamline customer requests and reduce manual
+        coordination.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>03. Appointment Booking Automation</h3>
+      <p>
+        Receives appointment requests, checks calendar
+        availability, prevents duplicates, records bookings
+        and sends customer and owner notifications.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>04. Inventory Management Automation</h3>
+      <p>
+        Monitors product quantities using scheduled checks
+        and automatically emails the business owner when
+        stock falls below its reorder level.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <h2 class="section-title">Tools & Technologies</h2>
+  <p class="section-intro">Technologies I use to build automation solutions.</p>
+
+  <div class="skills">
+    <span class="skill">n8n</span>
+    <span class="skill">Google Sheets</span>
+    <span class="skill">Google Calendar</span>
+    <span class="skill">Gmail</span>
+    <span class="skill">Webhooks</span>
+    <span class="skill">REST APIs</span>
+    <span class="skill">JSON</span>
+    <span class="skill">HTML</span>
+    <span class="skill">CSS</span>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="section-title">Let's Work Together</h2>
+  <p>
+    Have a repetitive business process you'd like to automate?
+    Let's discuss how automation can help.
+  </p>
+
+  <a href="https://github.com/faruqfatai72-iCloud"
+     class="button" target="_blank">
+     Find Me on GitHub
+  </a>
+</section>
+
+<footer>
+  © 2026 Faruq. All rights reserved.
+  <br>
+  Built with HTML and CSS.
+</footer>
+
+</body>
+</html>
